@@ -1,0 +1,22 @@
+# Build output and fetched dependencies
+build/
+vendor/
+.build/
+
+# The model is fetched by build.sh (1.6 GB, over GitHub's file limit)
+Models/
+*.part
+
+# macOS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# Secrets — Voicer needs none, so none should ever appear here
+.env
+.env.*
+*.p12
+*.cer
+*.pem
+*.key
+*.mobileprovision
